@@ -1,5 +1,6 @@
-#HDFC and Apache Spark Steps
-###Spark shell for python
+# HDFC and Apache Spark Steps
+
+### Spark shell for python
 ```sh
 module load python3
 python -m pip install {user pyspark
@@ -101,5 +102,5 @@ application as
 ```sh
 spark-submit --master 'local[*]' path/to/myapp.py path/to/pg1661.txt
 ```
-###Word Count Example in python
+### Word Count Example in python
 spark-submit path/to/wc.py path/to/pg1661.txt path/to/output
